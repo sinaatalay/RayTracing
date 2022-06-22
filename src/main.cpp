@@ -552,7 +552,7 @@ int main() {
 	std::vector<plane> planes{ groundPlane, wall1, wall2, wall3 };
 
 	//Image properties
-	const int antiAliasing = 3;
+	const int antiAliasing = 6;
 	const int H = 1080;  // Height of the image
 	const int W = 1920;  // Width of the image
 	std::ofstream image = createBmpFile(H, W);
